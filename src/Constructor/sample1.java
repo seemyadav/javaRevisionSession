@@ -19,7 +19,7 @@ public class sample1
 		s1.m1();
 		s1.m2();
 		
-		sample2 s2 = new sample2();
+		sample2 s2 = new sample2();  //call from different class
 		s2.m3();
 		
 	}

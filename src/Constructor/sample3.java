@@ -2,7 +2,9 @@ package Constructor;
 
 public class sample3
 {
-	//user defined constructor
+	//user defined constructor--->provided by user   without parameter/zero parameter
+	//use1:to initialize global variable
+	//use2:copy all the members of class into object
 	int num1;
 	int num2;
 	
@@ -23,7 +25,13 @@ public class sample3
 	
 	public static void main(String[] args)
 	{
+		sample3 s3 = new sample3(); //user defined constructor call from same class
+		s3.add();
+		s3.mult();
 		
+		sample4 s4 = new sample4();//user defined constructor call from different class
+		s4.sub();
+				
 		
 		
 	}
